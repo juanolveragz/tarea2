@@ -22,11 +22,11 @@ _INPUT = "2\n3 9\n17 24";
 */
 
 //----- Start your code here -------
-Dividir(input);
+Dividir(_INPUT);
 Cuadrados(arreglo, Cantidad);
-function Dividir(input)
+function Dividir(_INPUT)
 {
-	arreglo=input.split("\n");
+	arreglo=_INPUT.split("\n");
 	Cantidad=arreglo[0];
 	return arreglo;
 	return Cantidad;
